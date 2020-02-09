@@ -1,4 +1,5 @@
-#Mary's Portfolio
+#My Portfolio
+
 #Mary Margaret Wanjiku
 
 This is a landing page website which contains:
