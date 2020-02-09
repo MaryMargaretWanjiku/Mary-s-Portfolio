@@ -1,0 +1,33 @@
+body{
+    background-image: url(unsplashed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid div:nth-child(even){
+    background-image: url(Dario.jpeg); 
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 4px;
+}
+.column {
+    flex: 50%;
+    padding: 0% 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
